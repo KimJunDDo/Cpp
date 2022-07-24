@@ -1,10 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <cstring>
 using namespace std;
 
 int main() {
 	char str[100];
-	cout << "¹®ÀÚ¿­ ÀÔ·Â>>";
+	cout << "ë¬¸ìžì—´ ìž…ë ¥>>";
 	cin.getline(str, 100, '\n');
 
 	for (int i = 0; i < strlen(str); i++) {
