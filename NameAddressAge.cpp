@@ -1,16 +1,16 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int main() {
     char name[100], address[100];
     int age;
-    cout << "ÀÌ¸§Àº?";
+    cout << "ì´ë¦„ì€?";
     cin.getline(name, 100);
-    cout << "ÁÖ¼Ò´Â?";
+    cout << "ì£¼ì†ŒëŠ”?";
     cin.getline(address, 100);
-    cout << "³ªÀÌ´Â?";
+    cout << "ë‚˜ì´ëŠ”?";
     cin >> age;
-    cout << name << ", " << address << ", " << age << "¼¼" << endl;
+    cout << name << ", " << address << ", " << age << "ì„¸" << endl;
 
     return 0;
 }
