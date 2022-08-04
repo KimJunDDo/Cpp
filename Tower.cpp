@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
+
 class Tower {
 	int height;
 public:
